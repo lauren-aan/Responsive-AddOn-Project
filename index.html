@@ -26,16 +26,14 @@
           two.
         </h2>
         <button>
-          <a
-            href="https://www.airbnb.co.uk/rooms/49357431?source_impression_id=p3_1731506744_P3diipBwy_233jgL"
-            target="”_blank”"
+          <a href="https://www.airbnb.co.uk/rooms/49357431" target="”_blank”"
             >Book Now</a
           >
         </button>
       </header>
 
       <section class="grid grid-intro">
-        <img src="./images/bothy.jpeg" class="img-responsive" alt="" />
+        <img src="./images/internal.png" class="img-responsive" alt="" />
         <div class="intro-para">
           <h2>Bothy</h2>
           <hr />
@@ -70,32 +68,104 @@
         occupies the main wing of the Kennels building and stands across from
         the owner’s cottage.
       </section>
-      
+
       <!-- Gallery  -->
-       Images / Instagram
+
       <div class="grid grid-gallery">
-        <div class="box"> <img src="./images/internal.png" class="img-responsive" alt="" /></div>
-        <div class="box"> <img src="./images/view.png" class="img-responsive" alt="" /></div>
-        <div class="box"> <img src="./images/external.png" class="img-responsive" alt="" /></div>
+        <div class="box">
+          <img src="./images/gallery1.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/view.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/external.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/gallery2.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/gallery3.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/gallery4.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/gallery5.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/gallery6.png" class="img-responsive" alt="" />
+        </div>
+        <div class="box">
+          <img src="./images/gallery7.png" class="img-responsive" alt="" />
+        </div>
       </div>
       <!-- Gallery  -->
 
       <!-- Recommendations -->
-      <section>
-      <h1>Our Local Recommendations</h1>
-      
-      <div class="grid grid-local">
-        <div class="box">local</div>
-        <div class="box">local</div>
-        <div class="box">local</div>
-        <div class="box">local</div>
-        <div class="box">local</div>
-        <div class="box">local</div>
-        <div class="box">local</div>
-        <div class="box">local</div>
-      </div>
+      <section class="recommendations">
+        <h2>Our Local Recommendations</h2>
+
+        <div class="grid grid-local">
+          <div class="card">
+            <a href="https://www.themacallan.com/en" target="_blank">
+              <img
+                src="./recommendations/macallan.png"
+                class="img-responsive"
+                alt=""
+              />
+              <h3>The Macallan</h3>
+              <p>A whisky experience like no other!</p>
+            </a>
+          </div>
+
+          <div class="card">
+            <a href="https://www.bikeglenlivet.co.uk/" target="_blank">
+              <img
+                src="./recommendations/bikeglenlivet.jpg"
+                class="img-responsive"
+                alt=""
+              />
+              <h3>Bike Glenlivet</h3>
+              <p>Mtn bike, walk or zipline in the beautiful Glenlivet</p>
+            </a>
+          </div>
+          <div class="card">
+            <a
+              href="https://www.morayways.org.uk/routes/ben-rinnes/"
+              target="_blank"
+            >
+              <img
+                src="./recommendations/bothy.jpeg"
+                class="img-responsive"
+                alt=""
+              />
+              <h3>Climb Ben Rinnes</h3>
+              <p>
+                Straight from the bothy! Enjoy views of 8 different Scottish
+                Counties
+              </p>
+            </a>
+          </div>
+          <div class="card">
+            <a
+              href="https://thecroftinn.co.uk/"
+              target="_blank"
+            >
+              <img
+                src="./recommendations/croftinn.jpg"
+                class="img-responsive"
+                alt=""
+              />
+              <h3>Eat at the Croft Inn</h3>
+              <p>
+               Our "local". A 5 minute drive down the hidden Glen Rinnes
+              </p>
+            </a>
+          </div>
+        </div>
       </section>
-       <!-- Recommendations -->
+      <!-- Recommendations -->
 
       <!-- YouTube -->
       <div>
@@ -109,11 +179,11 @@
           allowfullscreen
         ></iframe>
       </div>
-         <!-- YouTube -->
+      <!-- YouTube -->
 
       <div class="grid grid-map">
-        <div class="box">
-          <h1>Getting Here</h1>
+        <div class="box" id="gettingHere">
+          <h2>Getting Here</h2>
           <p>
             Edinburgh / Glasgow: 3.5 hours
             <br />
@@ -132,9 +202,8 @@
         </div>
         <div class="box">
           <iframe
+            class="map"
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d8596.992006599752!2d-3.18947!3d57.4059582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4885bb9f3d584761%3A0x2c7e237a52ca7d1!2sBeatshach%20Bothy!5e0!3m2!1sen!2suk!4v1731507449529!5m2!1sen!2suk"
-            width="600"
-            height="450"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -146,21 +215,21 @@
       <footer>
         <div class="grid grid-footer">
           <div class="box">
-            <h1>
+            <h2>
               Beatshack Bothy,
               <br />
               where you are always welcome.
-            </h1>
-          </div>
-          <div class="box">
-            <h2>
-              Beatshach Bothy, <br />Kennels, <br />Glenrinnes, <br />Dufftown,
-              <br />AB55 4DA <br />
-              T: (+44) 07860674419
             </h2>
           </div>
           <div class="box">
-            <h2>
+            <h3>
+              Beatshach Bothy, <br />Kennels, <br />Glenrinnes, <br />Dufftown,
+              <br />AB55 4DA <br />
+              T: (+44) 07860674419
+            </h3>
+          </div>
+          <div class="box">
+            <h3>
               <a
                 href="https://www.instagram.com/beatshach_bothy/?hl=en"
                 target="_blank"
@@ -168,10 +237,21 @@
                 Instagram
               </a>
               <br />
-              Book <br />
-              Visit Moray Speyside<br />
-              VisitScotland
-            </h2>
+              <a href="https://www.airbnb.co.uk/rooms/49357431" target="_blank">
+                Book </a
+              ><br />
+              <a href="https://morayspeyside.com/" target="_blank">
+                Visit Moray Speyside</a
+              >
+              <br />
+
+              <a
+                href="https://www.visitscotland.com/info/towns-villages/moray-speyside-p1277541"
+                target="_blank"
+              >
+                VisitScotland</a
+              >
+            </h3>
           </div>
         </div>
       </footer>
