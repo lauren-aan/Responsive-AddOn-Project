@@ -107,6 +107,11 @@ button {
   border-style: solid;
 }
 
+.grid-map .box{
+  border-style: solid;
+  text-align: center;
+}
+
 .grid-footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
