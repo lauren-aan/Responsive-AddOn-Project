@@ -72,6 +72,10 @@ footer {
   font-size: x-small;
 }
 
+footer a{
+  color: var(--primary-color);
+}
+
 a {
   text-decoration: none;
   color: var(--footer-color);
@@ -114,7 +118,7 @@ button {
 
 .grid-footer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
 .copyright {
