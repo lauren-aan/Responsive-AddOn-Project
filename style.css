@@ -1,0 +1,92 @@
+:root {
+  --body-font-family: "Playfair Display", sans-serif;
+  --body-font-font-style: normal;
+  --body-font-font-weight: 400;
+  --body-font-text-transform: none;
+  --body-font-letter-spacing: 0.08em;
+
+  --primary-color: #f9f8f7;
+  --secondary-color: #99b1ab;
+  --third-color: #e8f5e9;
+  --fourth-colour: #005156;
+  --footer-color: #111820;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0;
+  background: var(--primary-color);
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  line-height: 1.4em;
+  color: var(--secondary-color);
+}
+
+h1 {
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  line-height: 1.4em;
+  color: var(--secondary-color);
+}
+
+footer {
+  padding: 25px;
+  background: var(--footer-color);
+  color: var(--primary-color);
+  text-align: left;
+  font-weight: 300;
+  font-size: x-small;
+}
+
+a {
+  text-decoration: none;
+  /* color: var(--primary-color); */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: var(--primary-color);
+  text-align: center;
+  border-style: solid;
+  border-color: var(--secondary-color);
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 21/9;
+    border-style: solid;
+  border-color: var(--secondary-color);
+}
+
+.grid-local {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-map {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-style: solid;
+
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.copyright {
+  background: var(--fourth-colour);
+  color: var(--primary-color);
+  padding: 25px;
+  font-size: x-small;
+}
+
+.lauren {
+  color: var(--footer-color);
+  font-size: x-small;
+  text-align: center;
+}
