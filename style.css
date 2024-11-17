@@ -168,6 +168,10 @@ section.recommendations {
 /* recommendations */
 
 /* video */
+
+.grid-video {
+  grid-template-columns: 1fr 1fr;
+}
 .video {
   width: 100%;
   aspect-ratio: 21/9;
